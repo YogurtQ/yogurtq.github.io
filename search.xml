@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[第一篇博客]]></title>
+    <url>%2F2019%2F09%2F13%2Ffirst-blog%2F</url>
+    <content type="text"><![CDATA[折腾了好几天，终于搭建好了自己的博客，虽然还有很多不满意的地方，但也算是有个好的开始了。 不过用着hexo的模版，还是没办法做出自己心中想要的样子，计划着先用hexo，再慢慢做自己的网站。 希望能与自己的博客网站一起成长。]]></content>
+      <categories>
+        <category>心情</category>
+      </categories>
+  </entry>
+</search>
