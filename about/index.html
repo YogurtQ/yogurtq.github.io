@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="YogurtQ">
 <meta property="og:description" content="关于我 你好，这里是YogurtQ，一个前端程序员。 一个平平凡凡，但又与众不同的人。 喜欢敲代码，写博客，最近又爱上了历史纪录片。 很高兴遇见你，也希望你能在这里有所收获。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-15T14:03:59.563Z">
+<meta property="og:updated_time" content="2019-09-17T11:13:48.128Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="YogurtQ">
 <meta name="twitter:description" content="关于我 你好，这里是YogurtQ，一个前端程序员。 一个平平凡凡，但又与众不同的人。 喜欢敲代码，写博客，最近又爱上了历史纪录片。 很高兴遇见你，也希望你能在这里有所收获。">
@@ -315,6 +315,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -365,10 +368,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
+                
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
-                </a>
+                
               </div>
             
 
@@ -403,7 +406,7 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://home.cnblogs.com/u/1143232" target="_blank" title="博客园">
+                    <a href="https://www.cnblogs.com/yogurtq/" target="_blank" title="博客园">
                       
                         <i class="fa fa-fw fa-globe"></i>博客园</a>
                   </span>
@@ -452,10 +455,22 @@
 
 
 
-  <div class="footer-custom">Visit me on <a target="_blank" href="https://github.com/yogurtq">GitHub</a></div>
-
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -593,6 +608,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'NhJJBCxidykCwDG0zYHuTOl5-gzGzoHsz',
+        appKey: 'pStBbCYPLITbCHvU8hsGyJwe',
+        placeholder: '来都来了，不留下点什么吗..',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
